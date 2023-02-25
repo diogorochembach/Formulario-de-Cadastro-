@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    136.31deg,
+    #0a0f07 14.16%,
+    #1f102b 53.39%,
+    #23193e 82.63%
+  );
+}
+
+#container {
+  padding: 45px 60px 45px 60px;
+}
+
+nav {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+main {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+form {
+  width: 50%;
+}
+
+main h1 {
+  color: #9f7fdb;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  background: #9f7fdb;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.name {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.email {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+}
+
+form button {
+  width: 240px;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #7834f3;
+  color: #fff;
+}
+
+.secundary {
+  background-color: #9f7fdb;
+  color: #fff;
+}
